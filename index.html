@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
@@ -15,7 +16,7 @@
 </head>
 <body>
   <section id="hero">
-    <div class="nav-toggle">
+    <div id="nav-toggle" class="nav-toggle">
       <img src="./images/icon-hamburger.svg" alt="menu">
     </div>
     <header>
@@ -23,15 +24,23 @@
         <img src="./images/logo.svg" alt="room">
       </div>
     </header>
-    <div class="mob-nav">
-      <ul class="mob-nav-links">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Shop</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
+    <div class="hero-page-switcher">
+      <img src="./images/icon-angle-left.svg" alt="scroll left">
+      <img src="./images/icon-angle-right.svg" alt="scroll right">
     </div>
+    
   </section>
+  <div id="mob-nav" class="mob-nav">
+    <div id="mob-nav-close" class="mob-nav-close">
+      <img src="./images/icon-close.svg" alt="close nav">
+    </div>
+    <ul class="mob-nav-links">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Shop</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </div>
   
   
 
@@ -71,4 +80,5 @@
     Coded by <a href="#">Your Name Here</a>.
   </div>
 </body>
+<script src="./app.js"></script>
 </html>
