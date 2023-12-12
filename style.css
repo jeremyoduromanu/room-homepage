@@ -6,3 +6,23 @@
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
+
+body{
+    font-family: 'League Spartan', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#hero{
+    padding: 0 5%;
+    height: 60vh;
+    width: 100%;
+    background-image: url(./images/desktop-image-hero-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
