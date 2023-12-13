@@ -117,3 +117,36 @@ body{
     letter-spacing: 0.5rem;
 }
 
+.about{
+    width: 100vw;
+}
+
+.about-image, .about-image2{
+    width: 100%;
+}
+
+.about-image img, .about-image2 img{
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.about-head{
+    padding: 0 5%;
+    margin-bottom: 2rem;
+}
+
+.about-head h1{
+    font-size: 1rem;
+    letter-spacing: .2rem;
+}
+
+.about-description {
+    padding: 0 5%;
+    margin-bottom: 2rem;
+}
+
+.about-description p{
+    color: hsl(0, 0%, 63%);
+    line-height: 1.3rem;
+}
+
